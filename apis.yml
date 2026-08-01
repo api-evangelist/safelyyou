@@ -1,7 +1,18 @@
 aid: safelyyou
-name: Safelyyou
-description: Safelyyou is a company surfaced as a portfolio company of dcvc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: SafelyYou
+description: >-
+  SafelyYou is an ambient-AI platform for senior living communities that reduces
+  falls, reveals resident risk, and surfaces operational and staffing insights
+  without requiring residents to wear devices. Its computer-vision system detects
+  and reviews fall incidents, and the broader product suite spans Safety AI for
+  fall detection, Staffing AI for labor allocation and care tracking, Wellness AI
+  for resident well-being, the Halo next-generation eCall system, and Guardian
+  hardware sensors. SafelyYou reports serving over 1,000 communities and 50,000
+  residents, with outcomes including roughly 45% fall reduction and longer length
+  of stay. The company integrates with senior-living EHR and eCall systems
+  (Yardi, ALIS, PointClickCare and others) and offers SSO, but publishes no public
+  developer API, SDK, or developer portal. This profile was surfaced as a
+  portfolio company of DCVC and enriched by the API Evangelist pipeline.
 url: https://raw.githubusercontent.com/api-evangelist/safelyyou/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +20,61 @@ x-backed-by:
 - dcvc
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://www.safely-you.com/wp-content/uploads/2025/08/sy-social-share-scaled.jpg
 tags:
 - Company
+- Senior Living
+- Senior Care
+- Fall Detection
+- Ambient AI
+- Computer Vision
+- Health Care
+- Aging
+- Staffing
+- Wellness
 apis: []
+common:
+- type: DomainSecurity
+  url: security/safelyyou-domain-security.yml
+- type: Website
+  url: https://www.safely-you.com/
+- type: About
+  url: https://www.safely-you.com/about-us/
+- type: Blog
+  url: https://www.safely-you.com/blog/
+- type: Support
+  url: https://www.safely-you.com/contact/
+- type: TermsOfService
+  url: https://www.safely-you.com/terms-of-use/
+- type: PrivacyPolicy
+  url: https://www.safely-you.com/privacy-policy/
+- type: SecurityStatement
+  url: https://www.safely-you.com/security-statement/
+- type: SignUp
+  url: https://www.safely-you.com/demo-request/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/safelyyou/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
